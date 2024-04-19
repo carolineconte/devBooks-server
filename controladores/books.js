@@ -1,4 +1,4 @@
-const { getAll, getBookByID, createBook, editBook, deleteABook, getBookByCategory } = require('../services/books');
+const { getAll, getBookByID, createBook, editBook, deleteABook, getBookByCategory } = require('../services/books.js');
 
 async function getBooks(req, res) {
   try {

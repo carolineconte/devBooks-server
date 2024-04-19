@@ -3,12 +3,13 @@ const path = require('path');
 
 async function getAll() {
   try {
-    const data = await fs.readFile(path.join(__dirname, 'books.json'), 'utf8');
+    const data = await fs.readFile('books.json');
     return JSON.parse(data);
   } catch (error) {
     throw new Error('Erro ao ler o arquivo books.json: ' + error.message);
   }
 }
+
 
 async function getBookByID(id) {
   const books = await getAll();
