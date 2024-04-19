@@ -15,9 +15,6 @@ app.get("/",(req,res)=>{
   return res.json("Hello Word")
 })
 
-// Corrigido para utilizar __dirname para caminho absoluto
-const booksFilePath = path.join(__dirname, 'books.json');
-
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Rodando na porta 
