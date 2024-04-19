@@ -9,15 +9,11 @@
   "routes": [
     {
       "src": "/livros",
-      "dest": "./books.json"
+      "dest": "/books.json"
     },
     {
       "src": "/favoritos",
-      "dest": "./favoritos.json"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "dest": "/favoritos.json"
     }
   ]
 }
