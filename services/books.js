@@ -1,59 +1,64 @@
 const fs = require('fs').promises;
+const path = require('path');
 
 async function getAll() {
   try {
-    const data = await fs.readFile('books.json');
+    const data = await fs.readFile(path.join(__dirname, 'books.json'), 'utf8');
     return JSON.parse(data);
   } catch (error) {
     throw new Error('Erro ao ler o arquivo books.json: ' + error.message);
   }
 }
 
-function getBookByID(id) {
-  const books = JSON.parse(fs.readFileSync('/books.json'));
-
-  const bookById = books.filter(book => book.id == id)[0];
-  return bookById
+async function getBookByID(id) {
+  const books = await getAll();
+  return books.find(book => book.id === id);
 }
 
-function getBookByCategory(category) {
-  const books = JSON.parse(fs.readFileSync('books.json'));
-
-  const bookByCategorie = books.filter(book => book.category === category);
-  return bookByCategorie
+async function getBookByCategory(category) {
+  const books = await getAll();
+  return books.filter(book => book.category === category);
 }
 
-function createBook(newBook) {
-  const books = JSON.parse(fs.readFileSync('books.json'));
-  const attList = [...books, newBook]
-
-  fs.writeFileSync('books.json', JSON.stringify(attList))
+async function createBook(newBook) {
+  try {
+    const books = await getAll();
+    const updatedBooks = [...books, newBook];
+    await fs.writeFile(path.join(__dirname, 'books.json'), JSON.stringify(updatedBooks, null, 2));
+  } catch (error) {
+    throw new Error('Erro ao criar um novo livro: ' + error.message);
+  }
 }
 
-function editBook(id, modificacoes) {
-  let books = JSON.parse(fs.readFileSync('books.json'));
-  const indexToEdit = books.findIndex(book => book?.id === id)
+async function editBook(id, modifications) {
+  try {
+    const books = await getAll();
+    const indexToEdit = books.findIndex(book => book.id === id);
+    if (indexToEdit === -1) throw new Error('Livro não encontrado.');
 
-  const editedBook = { ...books[indexToEdit], ...modificacoes }
-  //...books[indexToEdit] -> {id:'2',nome:'livro 2'}
-  //...modificacoes -> {nome:'livro 2 atualizado'}
-  //newData -> cria o novo objeto depois compara as chaves da modificacoes e substitui o valor
-  books[indexToEdit] = editedBook
-  fs.writeFileSync('books.json', JSON.stringify(books))
+    const editedBook = { ...books[indexToEdit], ...modifications };
+    books[indexToEdit] = editedBook;
+    await fs.writeFile(path.join(__dirname, 'books.json'), JSON.stringify(books, null, 2));
+  } catch (error) {
+    throw new Error('Erro ao editar o livro: ' + error.message);
+  }
 }
 
-function deleteABook(id) {
-  const newList = JSON.parse(fs.readFileSync('books.json'))
-  .filter(book => book?.id !== id);
-
-  fs.writeFileSync('books.json', JSON.stringify(newList))
+async function deleteABook(id) {
+  try {
+    const books = await getAll();
+    const updatedBooks = books.filter(book => book.id !== id);
+    await fs.writeFile(path.join(__dirname, 'books.json'), JSON.stringify(updatedBooks, null, 2));
+  } catch (error) {
+    throw new Error('Erro ao deletar o livro: ' + error.message);
+  }
 }
 
 module.exports = {
   getAll,
   getBookByID,
+  getBookByCategory,
   createBook,
   editBook,
-  deleteABook,
-  getBookByCategory
-}
+  deleteABook
+};
