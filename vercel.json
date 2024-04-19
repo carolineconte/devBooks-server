@@ -1,23 +1,16 @@
+
 {
   "version": 2,
   "builds": [
     {
-      "src": "./index.js",
-      "use": "@vercel/node"
+      "src": "index.js",
+      "use": "@now/node"
     }
   ],
   "routes": [
     {
-      "src": "/livros",
-      "dest": "/books.json"
-    },
-    {
-      "src": "/favoritos",
-      "dest": "/favoritos.json"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "index.js"
     }
   ]
 }
