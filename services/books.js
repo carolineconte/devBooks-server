@@ -1,7 +1,12 @@
-const fs = require('fs')
+const fs = require('fs').promises;
 
-function getAll() {
-  return JSON.parse(fs.readFileSync('/books.json'))
+async function getAll() {
+  try {
+    const data = await fs.readFile('books.json');
+    return JSON.parse(data);
+  } catch (error) {
+    throw new Error('Erro ao ler o arquivo books.json: ' + error.message);
+  }
 }
 
 function getBookByID(id) {
