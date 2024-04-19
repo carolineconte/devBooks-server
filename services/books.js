@@ -10,11 +10,11 @@ async function getAll() {
   }
 }
 
-getAll()
-async function getBookByID(id) {
-  const books = await getAll();
-  return books.find(book => book.id === id);
-}
+// getAll()
+// async function getBookByID(id) {
+//   const books = await getAll();
+//   return books.find(book => book.id === id);
+// }
 
 async function getBookByCategory(category) {
   const books = await getAll();

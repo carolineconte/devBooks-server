@@ -9,12 +9,12 @@ async function getBooks(req, res) {
   }
 }
 
-function getBook(req, res) {
+async function getBook(req, res) {
   try {
     const id = req.params.id;
 
     if (id && Number(id)) {
-      const book = getBookByID(id);
+      const book = await getBookByID(id);
       res.send(book);
     } else {
       res.status(422).send('ID inválido');
@@ -24,12 +24,12 @@ function getBook(req, res) {
   }
 }
 
-function getBooksByCategory(req, res) {
+async function getBooksByCategory(req, res) {
   try {
     const cat = req.params.category;
 
     if (cat) {
-      const books = getBookByCategory(cat);
+      const books = await getBookByCategory(cat);
       res.send(books);
     } else {
       res.status(422).send('Nenhum livro encontrado');
@@ -39,12 +39,12 @@ function getBooksByCategory(req, res) {
   }
 }
 
-function postBook(req, res) {
+async function postBook(req, res) {
   try {
     const newBook = req.body;
 
     if (newBook.nome && newBook.id) {
-      createBook(newBook);
+      await createBook(newBook);
       res.status(201).send('Livro inserido com sucesso');
     } else {
       res.status(422).send('Todos os campos são necessários');
@@ -54,13 +54,13 @@ function postBook(req, res) {
   }
 }
 
-function patchBook(req, res) {
+async function patchBook(req, res) {
   try {
     const id = req.params.id;
     const bookToEdit = req.body;
 
     if (id && Number(id)) {
-      editBook(id, bookToEdit);
+     await editBook(id, bookToEdit);
       res.status(200).send('Item atualizado');
     } else {
       res.status(422).send('ID inválido');
@@ -70,12 +70,12 @@ function patchBook(req, res) {
   }
 }
 
-function deleteBookById(req, res) {
+async function deleteBookById(req, res) {
   try {
     const id = req.params.id;
 
     if (id && Number(id)) {
-      deleteABook(id);
+     await deleteABook(id);
       res.status(200).send('Item deletado');
     } else {
       res.status(422).send('ID inválido');

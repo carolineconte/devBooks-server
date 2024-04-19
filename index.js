@@ -1,4 +1,3 @@
-
 const express = require('express');
 const cors = require('cors')
 const app = express();
@@ -18,5 +17,3 @@ app.listen(port, () => {
   console.log(`Rodando na porta 
   http://localhost:${port}/`)
 })
-
-module.exports = app;
