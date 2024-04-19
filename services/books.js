@@ -1,10 +1,11 @@
-const fs = require('fs').promises;
+const fs = require('fs-extra');
 const path = require('path');
 
 async function getAll() {
   try {
-    const data = await fs.readFile('/books.json');
-    return JSON.parse(data);
+    const filePath = path.join('books.json'); // Obtém o caminho absoluto do arquivo
+    const data = await fs.readFile(filePath, 'utf8'); // Lê o conteúdo do arquivo
+    return JSON.parse(data); // Converte o conteúdo para um objeto JavaScript
   } catch (error) {
     throw new Error('Erro ao ler o arquivo books.json: ' + error.message);
   }

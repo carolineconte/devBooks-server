@@ -1,3 +1,4 @@
+
 const express = require('express');
 const cors = require('cors')
 const app = express();
@@ -12,8 +13,8 @@ app.use('/livros', rotaLivro);
 app.use('/favoritos', rotaFavoritos);
 
 
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => {
+const port = process.env.PORT || 8000;
+app.listen(port, () => {
   console.log(`Rodando na porta 
-  http://localhost:${PORT}/`)
+  http://localhost:${port}/`)
 })
