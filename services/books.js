@@ -3,7 +3,7 @@ const path = require('path');
 
 async function getAll() {
   try {
-    const data = await fs.readFile('books.json');
+    const data = await fs.readFile('/books.json');
     return JSON.parse(data);
   } catch (error) {
     throw new Error('Erro ao ler o arquivo books.json: ' + error.message);

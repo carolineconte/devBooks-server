@@ -1,8 +1,8 @@
 const { getAll, getBookByID, createBook, editBook, deleteABook, getBookByCategory } = require('../services/books.js');
 
-async function getBooks(req, res) {
+ function getBooks(req, res) {
   try {
-    const books = await getAll();
+    const books =  getAll();
     res.send(books);
   } catch (error) {
     res.status(500).send(error.message);
