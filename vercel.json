@@ -8,8 +8,16 @@
   ],
   "routes": [
     {
+      "src": "/livros",
+      "dest": "/books.json"
+    },
+    {
+      "src": "/favoritos",
+      "dest": "/favoritos.json"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/index.js"
+      "dest": "/"
     }
   ]
 }
