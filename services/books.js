@@ -10,7 +10,6 @@ async function getAll() {
   }
 }
 
-
 async function getBookByID(id) {
   const books = await getAll();
   return books.find(book => book.id === id);
