@@ -11,16 +11,6 @@ app.use(cors({ origin: '*' }))
 app.use('/livros', rotaLivro);
 app.use('/favoritos', rotaFavoritos);
 
-app.get("/", (req, res) => {
-  return res.json("Hello Word")
-})
-
-app.get("/teste", (req, res) => {
-  return res.json("teste")
-})
-
-
-
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
