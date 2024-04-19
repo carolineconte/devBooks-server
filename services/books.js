@@ -1,11 +1,11 @@
 const fs = require('fs')
 
 function getAll() {
-  return JSON.parse(fs.readFileSync('./books.json'))
+  return JSON.parse(fs.readFileSync('/books.json'))
 }
 
 function getBookByID(id) {
-  const books = JSON.parse(fs.readFileSync('books.json'));
+  const books = JSON.parse(fs.readFileSync('/books.json'));
 
   const bookById = books.filter(book => book.id == id)[0];
   return bookById
