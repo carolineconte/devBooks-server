@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "The Hobbit",
+    "price": 20.99,
+    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7a612241550133.5606ffa0c18b0.jpg",
+    "category": "Fantasy",
+    "description": "Bilbo Baggins embarks on an epic adventure with a group of dwarves to reclaim their homeland from the dragon Smaug.",
+    "author": "J.R.R. Tolkien",
+    "trend": true
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "price": 15.50,
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1598823299i/42844155.jpg",
+    "category": "Fantasy",
+    "description": "A young wizard, Harry Potter, discovers his magical heritage and attends Hogwarts School of Witchcraft and Wizardry.",
+    "author": "J.K. Rowling",
+    "trend": true
+  },
+  {
+    "id": 3,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "price": 12.99,
+    "img": "https://m.media-amazon.com/images/I/91TpAAdiBLL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Science fiction",
+    "description": "Arthur Dent is swept off Earth by Ford Prefect, a researcher for the titular guide, just before Earth's destruction.",
+    "author": "Douglas Adams",
+    "trend": false
+  },
+  {
+    "id": 4,
+    "title": "Pride and Prejudice",
+    "price": 18.75,
+    "img": "https://readaloudrevival.com/wp-content/uploads/2016/05/Pride-and-Prejudice.png.webp",
+    "category": "Romance",
+    "description": "The story follows the main character Elizabeth Bennet as she deals with issues of manners, upbringing, morality, education, and marriage in the society of the landed gentry of early 19th-century England.",
+    "author": "Jane Austen",
+    "trend": false
+  },
+  {
+    "id": 5,
+    "title": "The Great Gatsby",
+    "price": 14.25,
+    "img": "https://i0.wp.com/americanwritersmuseum.org/wp-content/uploads/2018/02/CK-3.jpg?resize=267%2C400&ssl=1",
+    "category": "Drama",
+    "description": "Nick Carraway, a Yale graduate and World War I veteran from the Midwest—moves to a cottage in West Egg, Long Island, next door to a mansion owned by Jay Gatsby, a mysteriously wealthy self-made man who hosts lavish parties every Saturday night.",
+    "author": "F. Scott Fitzgerald",
+    "trend": false
+  },
+  {
+    "id": 6,
+    "title": "The Lion, the Witch and the Wardrobe",
+    "price": 17.99,
+    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/a0c39048873339.58a470c427a06.jpg",
+    "category": "Fantasy",
+    "description": "Four English children are sent to live in a large, old house near a railway station in the countryside. They subsequently discover that the wardrobe in an upstairs room leads to the magical land of Narnia.",
+    "author": "C.S. Lewis",
+    "trend": true
+  },
+  {
+    "id": 7,
+    "title": "To Kill a Mockingbird",
+    "price": 16.50,
+    "img": "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Drama",
+    "description": "The story follows Jean Louise Finch, nicknamed Scout, who lives with her older brother Jeremy, nicknamed Jem, and their widowed father Atticus, a middle-aged lawyer, in the fictional town of Maycomb, Alabama.",
+    "author": "Harper Lee",
+    "trend": false
+  },
+  {
+    "id": 8,
+    "title": "The Lord of the Rings",
+    "price": 25.99,
+    "img": "https://s26162.pcdn.co/wp-content/uploads/2017/05/the-lord-of-the-rings-book-cover.jpg",
+    "category": "Fantasy",
+    "description": "A sequel to Tolkien's earlier novel, The Hobbit, it follows the story of the One Ring, which is found by hobbit Bilbo Baggins and then sought by many individuals and groups, including the Dark Lord Sauron, who wants to use it to conquer Middle-earth.",
+    "author": "J.R.R. Tolkien",
+    "trend": false
+  },
+  {
+    "id": 9,
+    "title": "The Fault in Our Stars",
+    "price": 13.99,
+    "img": "https://cdn.kobo.com/book-images/d81f220e-01bb-4b6c-84cb-8eb7f147699d/1200/1200/False/the-fault-in-our-stars-black-edition.jpg",
+    "category": "Romance",
+    "description": "The story is narrated by Hazel Grace Lancaster, a 16-year-old girl with thyroid cancer that has affected her lungs. Hazel is forced by her parents to attend a support group where she subsequently meets and falls in love with 17-year-old Augustus Waters, an ex-basketball player and amputee.",
+    "author": "John Green",
+    "trend": false
+  },
+  {
+    "id": 10,
+    "title": "Alice's Adventures in Wonderland",
+    "price": 11.25,
+    "img": "https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781447279990.jpg",
+    "category": "Fantasy",
+    "description": "Alice falls through a rabbit hole into a fantasy world populated by peculiar, anthropomorphic creatures. The tale plays with logic, giving the story lasting popularity with adults as well as with children.",
+    "author": "Lewis Carroll",
+    "trend": false
+  },
+  {
+    "id": 11,
+    "title": "1984",
+    "price": 20.75,
+    "img": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF894,1000_QL80_.jpg",
+    "category": "Science fiction",
+    "description": "The story takes place in an imagined future, the year 1984, when much of the world has fallen victim to perpetual war, omnipresent government surveillance, historical negationism, and propaganda.",
+    "author": "George Orwell",
+    "trend": false
+  },
+  {
+    "id": 12,
+    "title": "The Princess Bride",
+    "price": 14.99,
+    "img": "https://m.media-amazon.com/images/I/51YeA6LGQcL.jpg",
+    "category": "Adventure",
+    "description": "The story is presented as a book being read by a grandfather to his sick grandson, and its primary audience is children aged 8 to 12 years old.",
+    "author": "William Goldman",
+    "trend": false
+  },
+  {
+    "id": 13,
+    "title": "The Da Vinci Code",
+    "price": 22.50,
+    "img": "https://m.media-amazon.com/images/I/61-NtNgM1ZL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Adventure",
+    "description": "The novel follows a symbologist and a cryptologist as they investigate a murder in Paris's Louvre Museum and discover a battle between the Priory of Sion and Opus Dei over the possibility of Jesus Christ and Mary Magdalene having had a child together.",
+    "author": "Dan Brown",
+    "trend": false
+  },
+  {
+    "id": 14,
+    "title": "A Game of Thrones",
+    "price": 19.99,
+    "img": "https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg",
+    "category": "Fantasy",
+    "description": "The novel chronicles the power struggles among noble families to gain control of the Iron Throne of the Seven Kingdoms, with the series of civil wars and large-scale battles interspersed with political intrigue and personal drama.",
+    "author": "George R.R. Martin",
+    "trend": false
+  },
+  {
+    "id": 15,
+    "title": "The Catcher in the Rye",
+    "price": 16.25,
+    "img": "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UF1000,1000_QL80_.jpg",
+    "category": "Drama",
+    "description": "The novel details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school.",
+    "author": "J.D. Salinger",
+    "trend": false
+  },
+  {
+    "id": 16,
+    "title": "The Chronicles of Narnia",
+    "price": 28.99,
+    "img": "https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Fantasy",
+    "description": "The series narrates the adventures of various children who play central roles in the unfolding history of the Narnian world.",
+    "author": "C.S. Lewis",
+    "trend": false
+  },
+  {
+    "id": 17,
+    "title": "Dracula",
+    "price": 15.99,
+    "img": "https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9781435159570&w=&h=570",
+    "category": "Horror",
+    "description": "The novel tells the story of Dracula's attempt to move from Transylvania to England so that he may find new blood and spread the undead curse, and of the battle between Dracula and a small group of people led by Professor Abraham Van Helsing.",
+    "author": "Bram Stoker",
+    "trend": false
+  },
+  {
+    "id": 18,
+    "title": "Wuthering Heights",
+    "price": 14.75,
+    "img": "https://m.media-amazon.com/images/I/61Ap7QjGMjL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Romance",
+    "description": "The novel follows the passionate relationship between Heathcliff and Catherine Earnshaw and how it destroys everyone around them.",
+    "author": "Emily Brontë",
+    "trend": false
+  },
+  {
+    "id": 19,
+    "title": "The Hunger Games",
+    "price": 18.50,
+    "img": "https://m.media-amazon.com/images/I/71WSzS6zvCL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Adventure",
+    "description": "The story is set in a dystopian future where the Capitol selects a boy and girl from the twelve districts to fight to the death on live television.",
+    "author": "Suzanne Collins",
+    "trend": false
+  },
+  {
+    "id": 20,
+    "title": "The Shining",
+    "price": 16.99,
+    "img": "https://cdn.kobo.com/book-images/1aeb37f7-e24a-458f-85ad-4122cb9b902e/1200/1200/False/the-shining-1.jpg",
+    "category": "Horror",
+    "description": "The novel tells the story of a writer and his family who are isolated in a hotel, where a paranormal presence influences the father into violence.",
+    "author": "Stephen King",
+    "trend": false
+  },
+  {
+    "id": 21,
+    "title": "Anna Karenina",
+    "price": 21.25,
+    "img": "https://cdn.kobo.com/book-images/96343675-122e-486e-91f5-db08db3997b1/353/569/90/False/anna-karenina-292.jpg",
+    "category": "Romance",
+    "description": "The novel explores the themes of passion and fidelity, the impact of family on individuals, and the role of society in determining one's fate.",
+    "author": "Leo Tolstoy",
+    "trend": false
+  },
+  {
+    "id": 22,
+    "title": "Jurassic Park",
+    "price": 19.75,
+    "img": "https://upload.wikimedia.org/wikipedia/en/2/21/Jurassic_Park_%28book_cover%29.jpg",
+    "category": "Science fiction",
+    "description": "The novel tells the story of a billionaire's amusement park featuring genetically engineered dinosaurs to attract visitors, which ultimately backfires disastrously.",
+    "author": "Michael Crichton",
+    "trend": false
+  },
+  {
+    "id": 23,
+    "title": "Frankenstein",
+    "price": 14.99,
+    "img": "https://cdn.kobo.com/book-images/4f850ff0-497b-4199-8f4a-e3c6724e7364/1200/1200/False/frankenstein-786.jpg",
+    "category": "Horror",
+    "description": "The novel tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment.",
+    "author": "Mary Shelley",
+    "trend": false
+  },
+  {
+    "id": 24,
+    "title": "Moby-Dick",
+    "price": 22.99,
+    "img": "https://cdn.kobo.com/book-images/8b5d37e1-1e41-4924-aad8-094e24ae5db7/1200/1200/False/moby-dick-600.jpg",
+    "category": "Adventure",
+    "description": "The novel follows the adventures of Ishmael, a sailor aboard the whaling ship Pequod, who embarks on a journey to seek revenge on the white sperm whale Moby Dick.",
+    "author": "Herman Melville",
+    "trend": true
+  },
+  {
+    "id": 25,
+    "title": "A Tale of Two Cities",
+    "price": 18.25,
+    "img": "https://cdn.kobo.com/book-images/b6cc787d-79b3-4322-bfae-7bbf6ed59a77/1200/1200/False/a-tale-of-two-cities-431.jpg",
+    "category": "Drama",
+    "description": "The novel tells the story of the French Doctor Manette, his 18-year-long imprisonment in the Bastille in Paris, and his release to live in London with his daughter Lucie, whom he had never met.",
+    "author": "Charles Dickens",
+    "trend": false
+  },
+  {
+    "id": 26,
+    "title": "The Girl with the Dragon Tattoo",
+    "price": 20.50,
+    "img": "https://m.media-amazon.com/images/I/81UOA8fDGaL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Mystery",
+    "description": "The novel focuses on the mystery surrounding the disappearance of a young girl, and a journalist and a hacker who are tasked with investigating the case.",
+    "author": "Stieg Larsson",
+    "trend": false
+  },
+  {
+    "id": 27,
+    "title": "The Picture of Dorian Gray",
+    "price": 16.99,
+    "img": "https://wordsworth-editions.com/wp-content/uploads/2017/07/9781853260155.jpg",
+    "category": "Horror",
+    "description": "The novel tells the story of a young man named Dorian Gray, the subject of a painting by artist Basil Hallward. Dorian is selected for his remarkable physical beauty, and Basil becomes strongly infatuated with Dorian, believing that his beauty is responsible for a new mode of art.",
+    "author": "Oscar Wilde",
+    "trend": false
+  },
+  {
+    "id": 28,
+    "title": "The Road",
+    "price": 15.75,
+    "img": "https://scifianon.files.wordpress.com/2014/02/the_road-large.jpg",
+    "category": "Science fiction",
+    "description": "The novel follows a father and his young son as they journey through a post-apocalyptic America, trying to survive and maintain their humanity in a world stripped of civilization and social structure.",
+    "author": "Cormac McCarthy",
+    "trend": false
+  },
+  {
+    "id": 29,
+    "title": "The Alchemist",
+    "price": 17.25,
+    "img": "https://www.getflashnotes.com/wp-content/uploads/2015/03/the_alchemist.png",
+    "category": "Adventure",
+    "description": "The story follows Santiago, a young Andalusian shepherd who dreams of traveling the world in search of a worldly treasure as extravagant as any ever found.",
+    "author": "Paulo Coelho",
+    "trend": true
+  },
+  {
+    "id": 30,
+    "title": "Jane Eyre",
+    "price": 19.25,
+    "img": "https://shahreketabonline.com/images/ProductImages/9781435163652.jpg",
+    "category": "Romance",
+    "description": "The novel follows the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester, the brooding master of Thornfield Hall.",
+    "author": "Charlotte Brontë",
+    "trend": false
+  },
+  {
+    "id": 31,
+    "title": "Cinderella",
+    "price": 12.99,
+    "img": "https://i.pinimg.com/474x/3d/e9/9b/3de99bdc708678e48593d30b141fa7bd.jpg",
+    "category": "Fairy Tale",
+    "description": "A classic fairy tale about a kind-hearted girl and a magical transformation.",
+    "author": "Charles Perrault",
+    "trend": true
+  },
+  {
+    "id": 32,
+    "title": "Snow White",
+    "price": 14.99,
+    "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2017/11/Snow-White-cover-vol1.png",
+    "category": "Fairy Tale",
+    "description": "The story of a princess, a wicked queen, and seven dwarfs.",
+    "author": "The Brothers Grimm",
+    "trend": true
+  },
+  {
+    "id": 33,
+    "title": "Beauty and the Beast",
+    "price": 11.99,
+    "img": "https://m.media-amazon.com/images/I/71uDm-9dhfL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Fairy Tale",
+    "description": "A tale of love, sacrifice, and the power of inner beauty.",
+    "author": "Jeanne-Marie Leprince de Beaumont",
+    "trend": true
+  },
+  {
+    "id": 34,
+    "title": "The Little Mermaid",
+    "price": 13.99,
+    "img": "https://cdn.kobo.com/book-images/db354f34-652f-4c20-b9de-96cfb44bcaf7/1200/1200/False/the-little-mermaid-and-other-fairy-tales.jpg",
+    "category": "Fairy Tale",
+    "description": "An underwater fairy tale of a mermaid who dreams of life on land.",
+    "author": "Hans Christian Andersen",
+    "trend": true
+  },
+  {
+    "id": 35,
+    "title": "Hansel and Gretel",
+    "price": 10.99,
+    "img": "https://m.media-amazon.com/images/I/911bnh3xWNL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Fairy Tale",
+    "description": "A story of two siblings who outsmart a witch in the forest.",
+    "author": "The Brothers Grimm",
+    "trend": true
+  }
+]
