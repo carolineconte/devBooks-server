@@ -15,7 +15,7 @@ app.get("/",(req,res)=>{
   return res.json("Hello Word")
 })
 
-const PORT = process.env.Port || 8000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Rodando na porta 
   http://localhost:${PORT}/`)
