@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 function getAll() {
-  return JSON.parse(fs.readFileSync('books.json'))
+  return JSON.parse(fs.readFileSync('./books.json'))
 }
 
 function getBookByID(id) {
