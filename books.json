@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "The Hobbit",
     "price": 20.99,
     "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7a612241550133.5606ffa0c18b0.jpg",
@@ -10,7 +10,7 @@
     "trend": true
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "Harry Potter and the Sorcerer's Stone",
     "price": 15.50,
     "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1598823299i/42844155.jpg",
@@ -20,7 +20,7 @@
     "trend": true
   },
   {
-    "id": 3,
+    "id": "3",
     "title": "The Hitchhiker's Guide to the Galaxy",
     "price": 12.99,
     "img": "https://m.media-amazon.com/images/I/91TpAAdiBLL._AC_UF1000,1000_QL80_.jpg",
@@ -30,7 +30,7 @@
     "trend": false
   },
   {
-    "id": 4,
+    "id": "4",
     "title": "Pride and Prejudice",
     "price": 18.75,
     "img": "https://readaloudrevival.com/wp-content/uploads/2016/05/Pride-and-Prejudice.png.webp",
@@ -40,7 +40,7 @@
     "trend": false
   },
   {
-    "id": 5,
+    "id": "5",
     "title": "The Great Gatsby",
     "price": 14.25,
     "img": "https://i0.wp.com/americanwritersmuseum.org/wp-content/uploads/2018/02/CK-3.jpg?resize=267%2C400&ssl=1",
@@ -50,7 +50,7 @@
     "trend": false
   },
   {
-    "id": 6,
+    "id": "6",
     "title": "The Lion, the Witch and the Wardrobe",
     "price": 17.99,
     "img": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/a0c39048873339.58a470c427a06.jpg",
@@ -60,7 +60,7 @@
     "trend": true
   },
   {
-    "id": 7,
+    "id": "7",
     "title": "To Kill a Mockingbird",
     "price": 16.50,
     "img": "https://m.media-amazon.com/images/I/71FxgtFKcQL._AC_UF1000,1000_QL80_.jpg",
@@ -70,7 +70,7 @@
     "trend": false
   },
   {
-    "id": 8,
+    "id": "8",
     "title": "The Lord of the Rings",
     "price": 25.99,
     "img": "https://s26162.pcdn.co/wp-content/uploads/2017/05/the-lord-of-the-rings-book-cover.jpg",
@@ -80,7 +80,7 @@
     "trend": false
   },
   {
-    "id": 9,
+    "id": "9",
     "title": "The Fault in Our Stars",
     "price": 13.99,
     "img": "https://cdn.kobo.com/book-images/d81f220e-01bb-4b6c-84cb-8eb7f147699d/1200/1200/False/the-fault-in-our-stars-black-edition.jpg",
@@ -90,7 +90,7 @@
     "trend": false
   },
   {
-    "id": 10,
+    "id": "10",
     "title": "Alice's Adventures in Wonderland",
     "price": 11.25,
     "img": "https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-270/edition/9781447279990.jpg",
@@ -100,7 +100,7 @@
     "trend": false
   },
   {
-    "id": 11,
+    "id": "11",
     "title": "1984",
     "price": 20.75,
     "img": "https://m.media-amazon.com/images/I/61ZewDE3beL._AC_UF894,1000_QL80_.jpg",
@@ -110,7 +110,7 @@
     "trend": false
   },
   {
-    "id": 12,
+    "id": "12",
     "title": "The Princess Bride",
     "price": 14.99,
     "img": "https://m.media-amazon.com/images/I/51YeA6LGQcL.jpg",
@@ -120,7 +120,7 @@
     "trend": false
   },
   {
-    "id": 13,
+    "id": "13",
     "title": "The Da Vinci Code",
     "price": 22.50,
     "img": "https://m.media-amazon.com/images/I/61-NtNgM1ZL._AC_UF1000,1000_QL80_.jpg",
@@ -130,7 +130,7 @@
     "trend": false
   },
   {
-    "id": 14,
+    "id": "14",
     "title": "A Game of Thrones",
     "price": 19.99,
     "img": "https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg",
@@ -140,7 +140,7 @@
     "trend": false
   },
   {
-    "id": 15,
+    "id": "15",
     "title": "The Catcher in the Rye",
     "price": 16.25,
     "img": "https://m.media-amazon.com/images/I/8125BDk3l9L._AC_UF1000,1000_QL80_.jpg",
@@ -150,7 +150,7 @@
     "trend": false
   },
   {
-    "id": 16,
+    "id": "16",
     "title": "The Chronicles of Narnia",
     "price": 28.99,
     "img": "https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg",
@@ -160,7 +160,7 @@
     "trend": false
   },
   {
-    "id": 17,
+    "id": "17",
     "title": "Dracula",
     "price": 15.99,
     "img": "https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9781435159570&w=&h=570",
@@ -170,7 +170,7 @@
     "trend": false
   },
   {
-    "id": 18,
+    "id": "18",
     "title": "Wuthering Heights",
     "price": 14.75,
     "img": "https://m.media-amazon.com/images/I/61Ap7QjGMjL._AC_UF1000,1000_QL80_.jpg",
@@ -180,7 +180,7 @@
     "trend": false
   },
   {
-    "id": 19,
+    "id": "19",
     "title": "The Hunger Games",
     "price": 18.50,
     "img": "https://m.media-amazon.com/images/I/71WSzS6zvCL._AC_UF1000,1000_QL80_.jpg",
@@ -190,7 +190,7 @@
     "trend": false
   },
   {
-    "id": 20,
+    "id": "20",
     "title": "The Shining",
     "price": 16.99,
     "img": "https://cdn.kobo.com/book-images/1aeb37f7-e24a-458f-85ad-4122cb9b902e/1200/1200/False/the-shining-1.jpg",
@@ -200,7 +200,7 @@
     "trend": false
   },
   {
-    "id": 21,
+    "id": "21",
     "title": "Anna Karenina",
     "price": 21.25,
     "img": "https://cdn.kobo.com/book-images/96343675-122e-486e-91f5-db08db3997b1/353/569/90/False/anna-karenina-292.jpg",
@@ -210,7 +210,7 @@
     "trend": false
   },
   {
-    "id": 22,
+    "id": "22",
     "title": "Jurassic Park",
     "price": 19.75,
     "img": "https://upload.wikimedia.org/wikipedia/en/2/21/Jurassic_Park_%28book_cover%29.jpg",
@@ -220,7 +220,7 @@
     "trend": false
   },
   {
-    "id": 23,
+    "id": "23",
     "title": "Frankenstein",
     "price": 14.99,
     "img": "https://cdn.kobo.com/book-images/4f850ff0-497b-4199-8f4a-e3c6724e7364/1200/1200/False/frankenstein-786.jpg",
@@ -230,7 +230,7 @@
     "trend": false
   },
   {
-    "id": 24,
+    "id": "24",
     "title": "Moby-Dick",
     "price": 22.99,
     "img": "https://cdn.kobo.com/book-images/8b5d37e1-1e41-4924-aad8-094e24ae5db7/1200/1200/False/moby-dick-600.jpg",
@@ -240,7 +240,7 @@
     "trend": true
   },
   {
-    "id": 25,
+    "id": "25",
     "title": "A Tale of Two Cities",
     "price": 18.25,
     "img": "https://cdn.kobo.com/book-images/b6cc787d-79b3-4322-bfae-7bbf6ed59a77/1200/1200/False/a-tale-of-two-cities-431.jpg",
@@ -250,7 +250,7 @@
     "trend": false
   },
   {
-    "id": 26,
+    "id": "26",
     "title": "The Girl with the Dragon Tattoo",
     "price": 20.50,
     "img": "https://m.media-amazon.com/images/I/81UOA8fDGaL._AC_UF1000,1000_QL80_.jpg",
@@ -260,7 +260,7 @@
     "trend": false
   },
   {
-    "id": 27,
+    "id": "27",
     "title": "The Picture of Dorian Gray",
     "price": 16.99,
     "img": "https://wordsworth-editions.com/wp-content/uploads/2017/07/9781853260155.jpg",
@@ -270,7 +270,7 @@
     "trend": false
   },
   {
-    "id": 28,
+    "id": "28",
     "title": "The Road",
     "price": 15.75,
     "img": "https://scifianon.files.wordpress.com/2014/02/the_road-large.jpg",
@@ -280,7 +280,7 @@
     "trend": false
   },
   {
-    "id": 29,
+    "id": "29",
     "title": "The Alchemist",
     "price": 17.25,
     "img": "https://www.getflashnotes.com/wp-content/uploads/2015/03/the_alchemist.png",
@@ -290,7 +290,7 @@
     "trend": true
   },
   {
-    "id": 30,
+    "id": "30",
     "title": "Jane Eyre",
     "price": 19.25,
     "img": "https://shahreketabonline.com/images/ProductImages/9781435163652.jpg",
@@ -300,7 +300,7 @@
     "trend": false
   },
   {
-    "id": 31,
+    "id": "31",
     "title": "Cinderella",
     "price": 12.99,
     "img": "https://i.pinimg.com/474x/3d/e9/9b/3de99bdc708678e48593d30b141fa7bd.jpg",
@@ -310,7 +310,7 @@
     "trend": true
   },
   {
-    "id": 32,
+    "id": "32",
     "title": "Snow White",
     "price": 14.99,
     "img": "https://goodcomicsforkids.slj.com/wp-content/uploads/2017/11/Snow-White-cover-vol1.png",
@@ -320,7 +320,7 @@
     "trend": true
   },
   {
-    "id": 33,
+    "id": "33",
     "title": "Beauty and the Beast",
     "price": 11.99,
     "img": "https://m.media-amazon.com/images/I/71uDm-9dhfL._AC_UF1000,1000_QL80_.jpg",
@@ -330,7 +330,7 @@
     "trend": true
   },
   {
-    "id": 34,
+    "id": "34",
     "title": "The Little Mermaid",
     "price": 13.99,
     "img": "https://cdn.kobo.com/book-images/db354f34-652f-4c20-b9de-96cfb44bcaf7/1200/1200/False/the-little-mermaid-and-other-fairy-tales.jpg",
@@ -340,7 +340,7 @@
     "trend": true
   },
   {
-    "id": 35,
+    "id": "35",
     "title": "Hansel and Gretel",
     "price": 10.99,
     "img": "https://m.media-amazon.com/images/I/911bnh3xWNL._AC_UF1000,1000_QL80_.jpg",

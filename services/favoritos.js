@@ -1,17 +1,17 @@
 const fs = require('fs')
 
-function getAllFavoritos() {
-  return JSON.parse(fs.readFileSync('favoritos.json'))
+async function getAllFavoritos() {
+  return await JSON.parse(fs.readFileSync('favoritos.json'))
 }
 
-function deleteFromFavorites(id) {
-  const favoritos = JSON.parse(fs.readFileSync('favoritos.json'))
+async function deleteFromFavorites(id) {
+  const favoritos = await JSON.parse(fs.readFileSync('favoritos.json'))
     .filter(fav => fav.id != id);
 
   fs.writeFileSync('favoritos.json', JSON.stringify(favoritos))
 }
 
-function addFavorito(id) {
+async function addFavorito(id) {
   try {
     const books = JSON.parse(fs.readFileSync('books.json'));
     const favoritos = JSON.parse(fs.readFileSync('favoritos.json'))
