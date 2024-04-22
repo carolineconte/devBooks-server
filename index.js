@@ -1,4 +1,6 @@
 const express = require('express');
+const { join } = require('path')
+
 const cors = require('cors')
 const app = express();
 
@@ -12,11 +14,9 @@ app.use('/livros', rotaLivro);
 app.use('/favoritos', rotaFavoritos);
 app.use('/myfavorites', rotaFavoritos);
 
-// Middleware para lidar com rotas não encontradas (erro 404)
-app.use((req, res, next) => {
-  res.status(404).send("Desculpe, a página que você está procurando não foi encontrada.");
-});
-
+app.get('*', (req, res) => {
+  res.sendFile(join(__dirname, 'build', 'index.html'))
+})
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
