@@ -14,9 +14,6 @@ app.use('/livros', rotaLivro);
 app.use('/favoritos', rotaFavoritos);
 app.use('/myfavorites', rotaFavoritos);
 
-app.get('*', (req, res) => {
-  res.sendFile(join(__dirname, 'build', 'index.html'))
-})
 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
