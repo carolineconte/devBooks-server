@@ -12,12 +12,14 @@ async function getAll() {
 
 async function getBookByID(id) {
   const books = await getAll();
-  return books.find(book => book.id === id);
+  const bookById = await books.find(book => book.id === id);
+  return bookById
 }
 
 async function getBookByCategory(category) {
   const books = await getAll();
-  return books.filter(book => book.category === category);
+  const category = await books.filter(book => book.category === category);
+  return category
 }
 
 async function createBook(newBook) {
