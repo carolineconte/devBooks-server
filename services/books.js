@@ -18,8 +18,8 @@ async function getBookByID(id) {
 
 async function getBookByCategory(category) {
   const books = await getAll();
-  const category = await books.filter(book => book.category === category);
-  return category
+  const booksByCategory = await books.filter(book => book.category === category);
+  return booksByCategory
 }
 
 async function createBook(newBook) {
