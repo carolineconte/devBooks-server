@@ -1,28 +1,44 @@
-const fs = require('fs')
+const fs = require('fs').promises;
 
 async function getAllFavoritos() {
-  return await JSON.parse(fs.readFileSync('favoritos.json'))
+  try {
+    const data = await fs.readFile('favoritos.json')
+    return JSON.parse(data);
+  } catch (error) {
+    throw new Error('Erro ao ler o arquivo favoritos.json ' + error.message);
+  }
 }
 
 async function deleteFromFavorites(id) {
-  const favoritos = await JSON.parse(fs.readFileSync('favoritos.json'))
-    .filter(fav => fav.id != id);
+  try {
+    const favoritesData = await fs.readFile('favoritos.json')
+    const favorites = JSON.parse(favoritesData)
+    
+    const attFavorites = favorites.filter(fav => fav.id !== id);
 
-  fs.writeFileSync('favoritos.json', JSON.stringify(favoritos))
+    fs.writeFile('favoritos.json', JSON.stringify(attFavorites))
+  } catch (error) {
+    console.error(error);
+  }
 }
 
 async function addFavorito(id) {
   try {
-    const books = JSON.parse(fs.readFileSync('books.json'));
-    const favoritos = JSON.parse(fs.readFileSync('favoritos.json'))
+    const booksData = await fs.readFile('books.json');
+    const favoritosData = await fs.readFile('favoritos.json');
 
-    const novoFavorito = books.filter(livro => livro.id == id)[0]
-    const novaListaDeFavoritos = [...favoritos, novoFavorito]
-    console.log(novoFavorito)
-    fs.writeFileSync('favoritos.json', JSON.stringify(novaListaDeFavoritos))
-  
+    const books = JSON.parse(booksData);
+    const favoritos = JSON.parse(favoritosData);
+
+    const novoFavorito = books.find(livro => livro.id === id);
+    if (novoFavorito) {
+      const novaListaDeFavoritos = [...favoritos, novoFavorito];
+      fs.writeFile('favoritos.json', JSON.stringify(novaListaDeFavoritos));
+    } else {
+      console.error(`Livro com ID ${id} não encontrado.`);
+    }
   } catch (e) {
-    console.error(e)
+    console.error(e);
   }
 }
 
