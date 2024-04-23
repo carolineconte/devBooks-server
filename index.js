@@ -8,7 +8,7 @@ const rotaFavoritos = require('./routes/favoritos')
 const rotaLivro = require('./routes/books')
 
 app.use(express.json())
-app.use(cors({ origin: 'https://carolinecontedev-dev-books.vercel.app/' }))
+app.use(cors({ origin: '*' }))
 
 app.use('/livros', rotaLivro);
 app.use('/favoritos', rotaFavoritos);
