@@ -1,1 +1,72 @@
-[{"id":"1","title":"The Hobbit","price":20.99,"img":"https://mir-s3-cdn-cf.behance.net/project_modules/1400/7a612241550133.5606ffa0c18b0.jpg","category":"Fantasy","description":"Bilbo Baggins embarks on an epic adventure with a group of dwarves to reclaim their homeland from the dragon Smaug.","author":"J.R.R. Tolkien","trend":true},{"id":"24","title":"Moby-Dick","price":22.99,"img":"https://cdn.kobo.com/book-images/8b5d37e1-1e41-4924-aad8-094e24ae5db7/1200/1200/False/moby-dick-600.jpg","category":"Adventure","description":"The novel follows the adventures of Ishmael, a sailor aboard the whaling ship Pequod, who embarks on a journey to seek revenge on the white sperm whale Moby Dick.","author":"Herman Melville","trend":true},{"id":"29","title":"The Alchemist","price":17.25,"img":"https://www.getflashnotes.com/wp-content/uploads/2015/03/the_alchemist.png","category":"Adventure","description":"The story follows Santiago, a young Andalusian shepherd who dreams of traveling the world in search of a worldly treasure as extravagant as any ever found.","author":"Paulo Coelho","trend":true},{"id":"14","title":"A Game of Thrones","price":19.99,"img":"https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg","category":"Fantasy","description":"The novel chronicles the power struggles among noble families to gain control of the Iron Throne of the Seven Kingdoms, with the series of civil wars and large-scale battles interspersed with political intrigue and personal drama.","author":"George R.R. Martin","trend":false},{"id":"16","title":"The Chronicles of Narnia","price":28.99,"img":"https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg","category":"Fantasy","description":"The series narrates the adventures of various children who play central roles in the unfolding history of the Narnian world.","author":"C.S. Lewis","trend":false},{"id":"28","title":"The Road","price":15.75,"img":"https://scifianon.files.wordpress.com/2014/02/the_road-large.jpg","category":"Science fiction","description":"The novel follows a father and his young son as they journey through a post-apocalyptic America, trying to survive and maintain their humanity in a world stripped of civilization and social structure.","author":"Cormac McCarthy","trend":false},{"id":"28","title":"The Road","price":15.75,"img":"https://scifianon.files.wordpress.com/2014/02/the_road-large.jpg","category":"Science fiction","description":"The novel follows a father and his young son as they journey through a post-apocalyptic America, trying to survive and maintain their humanity in a world stripped of civilization and social structure.","author":"Cormac McCarthy","trend":false},{"id":"16","title":"The Chronicles of Narnia","price":28.99,"img":"https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg","category":"Fantasy","description":"The series narrates the adventures of various children who play central roles in the unfolding history of the Narnian world.","author":"C.S. Lewis","trend":false},{"id":"28","title":"The Road","price":15.75,"img":"https://scifianon.files.wordpress.com/2014/02/the_road-large.jpg","category":"Science fiction","description":"The novel follows a father and his young son as they journey through a post-apocalyptic America, trying to survive and maintain their humanity in a world stripped of civilization and social structure.","author":"Cormac McCarthy","trend":false},{"id":"21","title":"Anna Karenina","price":21.25,"img":"https://cdn.kobo.com/book-images/96343675-122e-486e-91f5-db08db3997b1/353/569/90/False/anna-karenina-292.jpg","category":"Romance","description":"The novel explores the themes of passion and fidelity, the impact of family on individuals, and the role of society in determining one's fate.","author":"Leo Tolstoy","trend":false}]
+[
+  {
+    "id": "1",
+    "title": "The Hobbit",
+    "price": 20.99,
+    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/7a612241550133.5606ffa0c18b0.jpg",
+    "category": "Fantasy",
+    "description": "Bilbo Baggins embarks on an epic adventure with a group of dwarves to reclaim their homeland from the dragon Smaug.",
+    "author": "J.R.R. Tolkien",
+    "trend": true
+  },
+  {
+    "id": "24",
+    "title": "Moby-Dick",
+    "price": 22.99,
+    "img": "https://cdn.kobo.com/book-images/8b5d37e1-1e41-4924-aad8-094e24ae5db7/1200/1200/False/moby-dick-600.jpg",
+    "category": "Adventure",
+    "description": "The novel follows the adventures of Ishmael, a sailor aboard the whaling ship Pequod, who embarks on a journey to seek revenge on the white sperm whale Moby Dick.",
+    "author": "Herman Melville",
+    "trend": true
+  },
+  {
+    "id": "29",
+    "title": "The Alchemist",
+    "price": 17.25,
+    "img": "https://www.getflashnotes.com/wp-content/uploads/2015/03/the_alchemist.png",
+    "category": "Adventure",
+    "description": "The story follows Santiago, a young Andalusian shepherd who dreams of traveling the world in search of a worldly treasure as extravagant as any ever found.",
+    "author": "Paulo Coelho",
+    "trend": true
+  },
+  {
+    "id": "14",
+    "title": "A Game of Thrones",
+    "price": 19.99,
+    "img": "https://awoiaf.westeros.org/images/9/93/AGameOfThrones.jpg",
+    "category": "Fantasy",
+    "description": "The novel chronicles the power struggles among noble families to gain control of the Iron Throne of the Seven Kingdoms, with the series of civil wars and large-scale battles interspersed with political intrigue and personal drama.",
+    "author": "George R.R. Martin",
+    "trend": false
+  },
+  {
+    "id": "16",
+    "title": "The Chronicles of Narnia",
+    "price": 28.99,
+    "img": "https://m.media-amazon.com/images/I/81RuC2qCSmL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Fantasy",
+    "description": "The series narrates the adventures of various children who play central roles in the unfolding history of the Narnian world.",
+    "author": "C.S. Lewis",
+    "trend": false
+  },
+  {
+    "id": "28",
+    "title": "The Road",
+    "price": 15.75,
+    "img": "https://scifianon.files.wordpress.com/2014/02/the_road-large.jpg",
+    "category": "Science fiction",
+    "description": "The novel follows a father and his young son as they journey through a post-apocalyptic America, trying to survive and maintain their humanity in a world stripped of civilization and social structure.",
+    "author": "Cormac McCarthy",
+    "trend": false
+  },
+  {
+    "id": "21",
+    "title": "Anna Karenina",
+    "price": 21.25,
+    "img": "https://cdn.kobo.com/book-images/96343675-122e-486e-91f5-db08db3997b1/353/569/90/False/anna-karenina-292.jpg",
+    "category": "Romance",
+    "description": "The novel explores the themes of passion and fidelity, the impact of family on individuals, and the role of society in determining one's fate.",
+    "author": "Leo Tolstoy",
+    "trend": false
+  }
+]
